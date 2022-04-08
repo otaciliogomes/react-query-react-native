@@ -4,7 +4,9 @@ const api = axios.create({
     // baseURL: 'https://jsonplaceholder.typicode.com'
     baseURL: 'http:10.0.2.2:3333',
     headers: {
-        Accept: 'application/json',
+      Accept: 'application/json',
+      'X-RapidAPI-Host': 'api-nba-v1.p.rapidapi.com',
+      'X-RapidAPI-Key': '6da79d9a49msh42ebaa609700661p13e2f6jsnf181e867ea44'
     }
 })
 

@@ -54,7 +54,6 @@ const NewPost = () => {
     } catch(error) {
       throw error
     }
-
   }
 
   return (

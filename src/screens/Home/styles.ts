@@ -61,3 +61,7 @@ export const Button = styled.TouchableOpacity`
     border-radius: 35px;
     background-color: #1DA1F2;
 `
+export const ImageState = styled.Image`
+    width: 100%;
+    height: 300px;
+`

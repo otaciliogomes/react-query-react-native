@@ -75,21 +75,21 @@
                     "position": "Armador",
                     "height": 1.88,
                     "weight": null,
-                    "image": "https://raw.githubusercontent.com/otaciliogomes/react-query-react-native/main/src/assets/players/jaylen_brown.png.png"
+                    "image": "https://github.com/otaciliogomes/react-query-react-native/blob/main/src/assets/players/kyrie_irving.png?raw=trueevin"
                 },
                 {
                     "name": "Kevin Durant",
                     "position": "Ala-pivô",
                     "height": 2.08,
                     "weight": null,
-                    "image": "https://raw.githubusercontent.com/otaciliogomes/react-query-react-native/main/src/assets/players/jaylen_brown.png.png"
+                    "image": "https://github.com/otaciliogomes/react-query-react-native/blob/main/src/assets/players/kevin_durant.png?raw=true"
                 },
                 {
                     "name": "Andre Drummond",
                     "position": "Armador",
                     "height": 2.08,
                     "weight": 127,
-                    "image": "https://raw.githubusercontent.com/otaciliogomes/react-query-react-native/main/src/assets/players/jaylen_brown.png.png"
+                    "image": "https://github.com/otaciliogomes/react-query-react-native/blob/main/src/assets/players/andre_drummond.png?raw=true"
                 }
             ]
         },
@@ -97,7 +97,7 @@
             "id": 5,
             "name": "Charlotte Hornets",
             "nickname": "Hornets",
-            "colorTeam": "green",
+            "colorTeam": "#1d428a",
             "code": "CHA",
             "city": "Charlotte",
             "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/f3/Hornets_de_Charlotte_logo.svg/1200px-Hornets_de_Charlotte_logo.svg.png",

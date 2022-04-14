@@ -9,6 +9,7 @@ import { RootStackParamList } from '../../routes'
 import { useQuery } from 'react-query'
 import mockNba from '../../mock/index.json'
 import { CardNba, CardPlayer } from '../../shared'
+import { ScrollView } from 'react-native-gesture-handler';
 
 interface PostProps {
   post: any
@@ -27,6 +28,7 @@ export const Home = () => {
   }
 
   return (
+    <ScrollView>
     <S.Container>
       <S.Title>NBA</S.Title>
       <FlatList
@@ -45,7 +47,12 @@ export const Home = () => {
         horizontal
         showsVerticalScrollIndicator={false}
       />
+      <S.Container>
+
+      <S.ImageState source={{uri: 'https://dicasnovayork.com.br/wp-content/uploads/2018/03/barclayscenter.jpg'}}/>
+      </S.Container>
     </S.Container>
+    </ScrollView>
   )
 }
 

@@ -13,19 +13,19 @@
                     "name": "Trae Young",
                     "height": 1.85,
                     "weight": 82.0,
-                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                    "image": "jayson_tatum"
                 },
                 {
                     "name": "Clint Capela",
                     "height": 2.25,
                     "weight": 116.0,
-                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                    "image": "jayson_tatum"
                 },
                 {
                     "name": "John Collins",
                     "height": 2.06,
                     "weight": null,
-                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                    "image": "jayson_tatum"
                 }
             ]
         },
@@ -40,24 +40,24 @@
             "players": [
                 {
                     "name": "Jayson Tatum",
-                    "position": "Ala-pivô, Ala",
+                    "position": "Ala-pivô",
                     "height": 2.03,
                     "weight": 95.0,
-                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                    "image": "jayson_tatum"
                 },
                 {
                     "name": "Jaylen Brown",
                     "position": "Ala",
                     "height": 1.98,
                     "weight": null,
-                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                    "image": "jayson_tatum"
                 },
                 {
                     "name": "Marcus Smart",
                     "position": "Armador",
                     "height": 1.91,
                     "weight": null,
-                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                    "image": "jayson_tatum"
                 }
             ]
         },
@@ -75,21 +75,21 @@
                     "position": "Armador",
                     "height": 1.88,
                     "weight": null,
-                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                    "image": "jayson_tatum.png"
                 },
                 {
                     "name": "Kevin Durant",
                     "position": "Ala-pivô",
                     "height": 2.08,
                     "weight": null,
-                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                    "image": "jayson_tatum.png"
                 },
                 {
                     "name": "Andre Drummond",
                     "position": "Armador",
                     "height": 2.08,
                     "weight": 127,
-                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                    "image": "jayson_tatum.png"
                 }
             ]
         },
@@ -107,21 +107,21 @@
                     "position": "Armador",
                     "height": 2.01,
                     "weight": null,
-                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                    "image": "jayson_tatum"
                 },
                 {
                     "name": "Miles Bridges",
                     "position": "Ala-pivô",
                     "height": 2.08,
                     "weight": null,
-                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                    "image": "jayson_tatum.png"
                 },
                 {
                     "name": "Andre Drummond",
                     "position": "Armador",
                     "height": 2.08,
                     "weight": 127,
-                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                    "image": "jayson_tatum.png"
                 }
             ]
         },

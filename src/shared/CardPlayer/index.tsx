@@ -8,10 +8,13 @@ type Props = {
 }
 
 export const CardPlayer = ({ item, color }: Props): JSX.Element => {
+    const defaultImage = '../../assets/players/jayson_tatum.png'
+
+
     return (
         <S.Container>
             <S.Content color={color}>
-                <S.Image source={require('../../assets/trae_young.png')}/>
+                <S.Image href={`../../assets/players/${item.image}.png` || defaultImage} />
                 <S.Title>{item.name}</S.Title>
                 <S.Text><S.Title>Posição: </S.Title>{item?.position}</S.Text>
             </S.Content>

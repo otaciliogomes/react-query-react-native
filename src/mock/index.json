@@ -13,19 +13,19 @@
                     "name": "Trae Young",
                     "height": 1.85,
                     "weight": 82.0,
-                    "image": "jayson_tatum"
+                    "image": "https://github.com/otaciliogomes/react-query-react-native/blob/main/src/assets/players/trae_young.png?raw=true"
                 },
                 {
                     "name": "Clint Capela",
                     "height": 2.25,
                     "weight": 116.0,
-                    "image": "jayson_tatum"
+                    "image": "https://github.com/otaciliogomes/react-query-react-native/blob/main/src/assets/players/clint_capela.png?raw=true"
                 },
                 {
                     "name": "John Collins",
                     "height": 2.06,
                     "weight": null,
-                    "image": "jayson_tatum"
+                    "image": "https://github.com/otaciliogomes/react-query-react-native/blob/main/src/assets/players/john_collins.png?raw=true"
                 }
             ]
         },
@@ -43,21 +43,21 @@
                     "position": "Ala-pivô",
                     "height": 2.03,
                     "weight": 95.0,
-                    "image": "jayson_tatum"
+                    "image": "https://github.com/otaciliogomes/react-query-react-native/blob/main/src/assets/players/jayson_tatum.png?raw=true"
                 },
                 {
                     "name": "Jaylen Brown",
                     "position": "Ala",
                     "height": 1.98,
                     "weight": null,
-                    "image": "jayson_tatum"
+                    "image": "https://raw.githubusercontent.com/otaciliogomes/react-query-react-native/main/src/assets/players/jaylen_brown.png"
                 },
                 {
                     "name": "Marcus Smart",
                     "position": "Armador",
                     "height": 1.91,
                     "weight": null,
-                    "image": "jayson_tatum"
+                    "image": "https://github.com/otaciliogomes/react-query-react-native/blob/main/src/assets/players/marcus_smart.png?raw=true"
                 }
             ]
         },
@@ -75,21 +75,21 @@
                     "position": "Armador",
                     "height": 1.88,
                     "weight": null,
-                    "image": "jayson_tatum.png"
+                    "image": "https://raw.githubusercontent.com/otaciliogomes/react-query-react-native/main/src/assets/players/jaylen_brown.png.png"
                 },
                 {
                     "name": "Kevin Durant",
                     "position": "Ala-pivô",
                     "height": 2.08,
                     "weight": null,
-                    "image": "jayson_tatum.png"
+                    "image": "https://raw.githubusercontent.com/otaciliogomes/react-query-react-native/main/src/assets/players/jaylen_brown.png.png"
                 },
                 {
                     "name": "Andre Drummond",
                     "position": "Armador",
                     "height": 2.08,
                     "weight": 127,
-                    "image": "jayson_tatum.png"
+                    "image": "https://raw.githubusercontent.com/otaciliogomes/react-query-react-native/main/src/assets/players/jaylen_brown.png.png"
                 }
             ]
         },
@@ -107,21 +107,21 @@
                     "position": "Armador",
                     "height": 2.01,
                     "weight": null,
-                    "image": "jayson_tatum"
+                    "image": "https://raw.githubusercontent.com/otaciliogomes/react-query-react-native/main/src/assets/players/jaylen_brown.png"
                 },
                 {
                     "name": "Miles Bridges",
                     "position": "Ala-pivô",
                     "height": 2.08,
                     "weight": null,
-                    "image": "jayson_tatum.png"
+                    "image": "https://raw.githubusercontent.com/otaciliogomes/react-query-react-native/main/src/assets/players/jaylen_brown.png.png"
                 },
                 {
                     "name": "Andre Drummond",
                     "position": "Armador",
                     "height": 2.08,
                     "weight": 127,
-                    "image": "jayson_tatum.png"
+                    "image": "https://raw.githubusercontent.com/otaciliogomes/react-query-react-native/main/src/assets/players/jaylen_brown.png.png"
                 }
             ]
         },

@@ -37,6 +37,7 @@ export const Home = () => {
         scrollEnabled
         horizontal
       />
+      <S.Title>PLAYERS</S.Title>
       <FlatList 
         data={players}
         keyExtractor={item => item.name}

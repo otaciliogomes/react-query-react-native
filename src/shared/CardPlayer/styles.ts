@@ -2,9 +2,8 @@ import styled from 'styled-components/native'
 import { theme } from '../../theme'
 
 export const Image = styled.Image`
-    height: 80px;
-    width: 80px;
-    margin: 10px;
+    height: 120px;
+    width: 120px;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -18,8 +17,8 @@ export const Content = styled.View<{color: string}>`
     background-color: ${({ color }) => color};
     border: solid 2px ${({ color }) => color};
     border-radius: 10px;
-    height: 150;
-    width: 140px;
+    height: 160;
+    width: 180px;
 `
 
 export const Container = styled.View`
@@ -28,14 +27,22 @@ export const Container = styled.View`
     background-color: ${theme.colors.background};
     border: solid 2px ${theme.colors.background};
     border-radius: 10px;
-    height: 200;
-    width: 140px;
+    height: 220;
+    width: 180px;
     z-index: -1;
+    margin: 0px 6px;
 `
 
 export const Title = styled.Text`
     color: ${theme.colors.white};
     font-size: 16px;
+    margin-left: 6px;
+    font-weight: bold;
+`
+
+export const Name = styled.Text`
+    color: ${theme.colors.white};
+    font-size: 20px;
     margin-left: 6px;
     font-weight: bold;
 `

@@ -14,8 +14,8 @@ export const Container = styled.TouchableOpacity<ButtonProps>`
   height: 300px;
   border-width: ${(props) => (props.type === 'outlined' ? '1px' : props.type === 'translucent' ? '2px' : 0)};
   border-radius: 300px;
-  border-color: #FFF;
-  border: solid 6px #FFF;
+  border-color: #1d428a;
+  border: solid 6px #1d428a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@ interface TextProps {
 }
 
 export const CustomText = styled.Text<TextProps>`
-  color: #FFF;
+  color: #1d428a;
   font-size: 40px;
 `
 

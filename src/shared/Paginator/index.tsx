@@ -19,14 +19,13 @@ export const Paginator = ({
 }: PaginatorProps) => {
   const { width } = Dimensions.get('window')
   return (
-    <>
       <View
         style={{
           flexDirection: 'row',
           justifyContent: 'center',
           alignItems: 'center',
           height: dotWidth,
-          backgroundColor: '#FF',
+          backgroundColor: '#FFF',
           marginBottom: 30
         }}
       >
@@ -54,27 +53,26 @@ export const Paginator = ({
           })
 
           return (
-            <>
+            <View key={item?.id}>
               {item?.isVisible && (
                 <Animated.View
-                  key={index}
+                  
                   style={{
                     height:
                       animated && typeAnimated === '1' ? animatedSize : 14,
                     width: animated ? animatedSize : dotWidth,
                     opacity,
-                    backgroundColor: '#FFF',
+                    backgroundColor: '#1d428a',
                     borderRadius: 50,
                     marginHorizontal: 8,
                     margin: 10
                   }}
                 />
               )}
-            </>
+            </View>
           )
         })}
       </View>
-    </>
   )
 }
 

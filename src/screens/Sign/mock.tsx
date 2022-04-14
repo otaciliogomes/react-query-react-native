@@ -7,7 +7,7 @@ import { Button } from '../../shared'
 import { RootStackParamList } from '../../routes'
 
 import * as S from './styles'
-
+import IMGNBA from '../../assets/nba_image-remove.png'
 type homeScreenProp = StackNavigationProp<RootStackParamList, 'Home'>
 const NavigationToHome = () => {
  const navigation = useNavigation<homeScreenProp>();
@@ -16,7 +16,7 @@ const NavigationToHome = () => {
     <S.ContainerBtn>
       <Button 
         title='Entrar' 
-        type='outlined' 
+        type='contained' 
         width={90} 
         height={90} 
         onPress={() => navigation.navigate('Home')} 
@@ -30,14 +30,14 @@ const nbaImg2 = 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMS
 export const data = [
     {
       id: '1',
-      component: <Slide img={nbaImg1} />,
+      component: <Slide img={'../../assets/nba_image-remove.png'} />,
       isVisible: true
     },
-    {
-      id: '2',
-      component: <Slide img={nbaImg2} />,
-      isVisible: true
-    },
+    // {
+    //   id: '2',
+    //   component: <Slide img={nbaImg2} />,
+    //   isVisible: true
+    // },
     {
       id: '3',
       component:<NavigationToHome />,

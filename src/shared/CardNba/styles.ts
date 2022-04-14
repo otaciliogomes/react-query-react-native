@@ -11,7 +11,7 @@ export const Image = styled.Image`
     background-color: ${theme.colors.white};
 `
 
-export const Container = styled.View`
+export const Container = styled.TouchableOpacity`
     justify-content: flex-start;
     align-items: center;
     background-color: ${theme.colors.red};

@@ -47,9 +47,9 @@ export const TitleContainer = styled.View`
     align-items: flex-start;
 `
 export const Title = styled.Text`
-    color: #FFF;
+    color: #000;
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
 `
 

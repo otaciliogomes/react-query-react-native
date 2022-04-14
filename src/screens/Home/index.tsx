@@ -1,14 +1,14 @@
-import React, {useEffect} from 'react'
+import React, { useEffect, useState } from 'react'
 import { FlatList, Image } from 'react-native'
 import { StackNavigationProp } from '@react-navigation/stack';
 import { useNavigation } from '@react-navigation/native';
-import { Post } from '../../interfaces'
+import { Player, Post, TeamsLeague } from '../../interfaces'
 import api from '../../services'
 import * as S from './styles'
 import { RootStackParamList } from '../../routes'
 import { useQuery } from 'react-query'
 import mockNba from '../../mock/index.json'
-import {CardNba} from '../../shared'
+import { CardNba, CardPlayer } from '../../shared'
 
 interface PostProps {
   post: any
@@ -18,52 +18,32 @@ type homeScreenProp = StackNavigationProp<RootStackParamList, 'Home'>;
 
 export const Home = () => {
   const navigation = useNavigation<homeScreenProp>();
+  const [players, setPlayers] = useState<Player[]>(mockNba.response[1]?.players as Player[])
+  const [colorTeam, setcolorTeam] = useState('#c8102e')
 
-  const { data } = useQuery('posts', async () => {
-    try {
-      
-      // const resp = await api.get<Post[]>('https://api.github.com/users/otaciliogomes/repos')
-      const resp = await api.get<Post[]>('https://jsonplaceholder.typicode.com/todos')
-      return resp.data
-    } catch (error) {
-      alert('Error !')
-      console.log(error)
-    }
-  })
-
-  // useEffect(() => {
-  //   async function name() {
-  //     const resp = await api.get<Post[]>('/https://api-nba-v1.p.rapidapi.com/teams')
-  //     console.log(resp)
-  //   }
-  //   name()
-  // },[])
-
-  const Post = ({ post }: PostProps) => (
-    <S.PostContainer>
-      <S.Text>{post.id}</S.Text>
-      <S.Text>{post.name}fdf</S.Text>
-      <S.Text>{post.created_at}</S.Text>
-    </S.PostContainer>
-  )
+  const handleSetPlayer = (list: TeamsLeague) => {
+    setPlayers(list.players)
+    setcolorTeam(list.colorTeam)
+  }
 
   return (
     <S.Container>
-      <S.TitleContainer>
-        <S.Title>Post de hoje{data?.length}</S.Title>
-      </S.TitleContainer>
-      <S.Button onPress={() => navigation.navigate('NewPost')}>
-        <S.Text>+</S.Text>
-      </S.Button>
+      <S.Title>NBA</S.Title>
       <FlatList
         data={mockNba.response}
-        renderItem={({ item }) => <CardNba item={item} />}
+        renderItem={({ item }) => <CardNba item={item} setPlayers={handleSetPlayer}/>}
         keyExtractor={item => item.id.toString()}
-        showsVerticalScrollIndicator
+        showsVerticalScrollIndicator={false}
         scrollEnabled
         horizontal
       />
-      {/* {data?.map(item => <Post post={item} />)} */}
+      <FlatList 
+        data={players}
+        keyExtractor={item => item.name}
+        renderItem={({ item }) => <CardPlayer item={item} color={colorTeam} />}
+        horizontal
+        showsVerticalScrollIndicator={false}
+      />
     </S.Container>
   )
 }

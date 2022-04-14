@@ -21,7 +21,7 @@ const Sign = () => {
           showsHorizontalScrollIndicator={false}
           pagingEnabled
           bounces={false}
-          keyExtractor={(item, index) => `item?.id+index`}
+          keyExtractor={(item) => item.id}
           onScroll={Animated.event(
             [{ nativeEvent: { contentOffset: { x: scrollx } } }],
             { useNativeDriver: false }

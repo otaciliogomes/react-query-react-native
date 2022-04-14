@@ -5,7 +5,7 @@ import styled from 'styled-components/native'
 const { width } = Dimensions.get('window')
 
 export const Container = styled.View`
-  background-color: #1d428a;
+  background-color: #FFF;
   flex: 1;
   justify-content: center;
   align-items: center;
@@ -17,14 +17,14 @@ export const ContainerPage = styled.View`
   flex: 1;
   justify-content: center;
   align-items: center;
-  background-color: #1d428a;
+  background-color: #FFF;
   /* width: ${width}; */
 `
 
 export const ContainerBtn = styled.View`
     flex: 1;
     width: ${width};
-    background-color: #1d428a;
+    background-color: #FFF;
     justify-content: center;
     align-items: center;
 `

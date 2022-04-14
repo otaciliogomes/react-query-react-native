@@ -1,20 +1,15 @@
 import React from 'react'
+import { Player, TeamsLeague } from 'src/interfaces'
 import * as S from './styles'
 
 type Props = {
-    item: {
-        id: number
-        name: string
-        nickname: string
-        code: string
-        city: string
-        logo: string
-    }
+    item: TeamsLeague
+    setPlayers: (player: TeamsLeague) => void
 }
 
-export const CardNba = ({ item }: Props): JSX.Element => {
+export const CardNba = ({ item, setPlayers }: Props): JSX.Element => {
     return (
-        <S.Container>
+        <S.Container onPress={() => setPlayers(item)}>
             <S.Image 
                 source={{uri: item.logo}}
             />

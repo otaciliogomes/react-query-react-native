@@ -4,38 +4,132 @@
             "id": 1,
             "name": "Atlanta Hawks",
             "nickname": "Hawks",
+            "colorTeam": "#c8102e",
             "code": "ATL",
             "city": "Atlanta",
-            "logo": "https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png"
+            "logo": "https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png",
+            "players": [
+                {
+                    "name": "Trae Young",
+                    "height": 1.85,
+                    "weight": 82.0,
+                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                },
+                {
+                    "name": "Clint Capela",
+                    "height": 2.25,
+                    "weight": 116.0,
+                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                },
+                {
+                    "name": "John Collins",
+                    "height": 2.06,
+                    "weight": null,
+                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                }
+            ]
         },
         {
             "id": 2,
             "name": "Boston Celtics",
             "nickname": "Celtics",
+            "colorTeam": "green",
             "code": "BOS",
             "city": "Boston",
-            "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png"
+            "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png",
+            "players": [
+                {
+                    "name": "Jayson Tatum",
+                    "position": "Ala-pivô, Ala",
+                    "height": 2.03,
+                    "weight": 95.0,
+                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                },
+                {
+                    "name": "Jaylen Brown",
+                    "position": "Ala",
+                    "height": 1.98,
+                    "weight": null,
+                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                },
+                {
+                    "name": "Marcus Smart",
+                    "position": "Armador",
+                    "height": 1.91,
+                    "weight": null,
+                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                }
+            ]
         },
         {
             "id": 4,
             "name": "Brooklyn Nets",
+            "colorTeam": "black",
             "nickname": "Nets",
             "code": "BKN",
             "city": "Brooklyn",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png"
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png",
+            "players": [
+                {
+                    "name": "Kyrie Irving",
+                    "position": "Armador",
+                    "height": 1.88,
+                    "weight": null,
+                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                },
+                {
+                    "name": "Kevin Durant",
+                    "position": "Ala-pivô",
+                    "height": 2.08,
+                    "weight": null,
+                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                },
+                {
+                    "name": "Andre Drummond",
+                    "position": "Armador",
+                    "height": 2.08,
+                    "weight": 127,
+                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                }
+            ]
         },
         {
             "id": 5,
             "name": "Charlotte Hornets",
             "nickname": "Hornets",
+            "colorTeam": "green",
             "code": "CHA",
             "city": "Charlotte",
-            "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/f3/Hornets_de_Charlotte_logo.svg/1200px-Hornets_de_Charlotte_logo.svg.png"
+            "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/f3/Hornets_de_Charlotte_logo.svg/1200px-Hornets_de_Charlotte_logo.svg.png",
+            "players": [
+                {
+                    "name": "LaMelo Ball",
+                    "position": "Armador",
+                    "height": 2.01,
+                    "weight": null,
+                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                },
+                {
+                    "name": "Miles Bridges",
+                    "position": "Ala-pivô",
+                    "height": 2.08,
+                    "weight": null,
+                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                },
+                {
+                    "name": "Andre Drummond",
+                    "position": "Armador",
+                    "height": 2.08,
+                    "weight": 127,
+                    "image": "https://jumperbrasil.lance.com.br/wp-content/uploads/2022/02/Trae-Young1.jpg"
+                }
+            ]
         },
         {
             "id": 6,
             "name": "Chicago Bulls",
             "nickname": "Bulls",
+            "colorTeam": "#c8102e",
             "code": "CHI",
             "city": "Chicago",
             "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/Bulls_de_Chicago_logo.svg/1200px-Bulls_de_Chicago_logo.svg.png"
@@ -44,6 +138,7 @@
             "id": 7,
             "name": "Cleveland Cavaliers",
             "nickname": "Cavaliers",
+            "colorTeam": "brown",
             "code": "CLE",
             "city": "Cleveland",
             "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/06/Cavs_de_Cleveland_logo_2017.png/150px-Cavs_de_Cleveland_logo_2017.png"
@@ -52,6 +147,7 @@
             "id": 8,
             "name": "Dallas Mavericks",
             "nickname": "Mavericks",
+            "colorTeam": "blue",
             "code": "DAL",
             "city": "Dallas",
             "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b8/Mavericks_de_Dallas_logo.svg/150px-Mavericks_de_Dallas_logo.svg.png"
@@ -60,6 +156,7 @@
             "id": 9,
             "name": "Denver Nuggets",
             "nickname": "Nuggets",
+            "colorTeam": "blue",
             "code": "DEN",
             "city": "Denver",
             "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/35/Nuggets_de_Denver_2018.png/180px-Nuggets_de_Denver_2018.png"
@@ -68,6 +165,7 @@
             "id": 10,
             "name": "Detroit Pistons",
             "nickname": "Pistons",
+            "colorTeam": "#c8102e",
             "code": "DET",
             "city": "Detroit",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Detroit_Pistons_primary_logo_2017.png/150px-Detroit_Pistons_primary_logo_2017.png"
@@ -75,6 +173,7 @@
         {
             "id": 11,
             "name": "Golden State Warriors",
+            "colorTeam": "yellow",
             "nickname": "Warriors",
             "code": "GSW",
             "city": "Golden State",
@@ -84,6 +183,7 @@
             "id": 14,
             "name": "Houston Rockets",
             "nickname": "Rockets",
+            "colorTeam": "#c8102e",
             "code": "HOU",
             "city": "Houston",
             "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Houston_Rockets_logo_2003.png/330px-Houston_Rockets_logo_2003.png"
@@ -92,6 +192,7 @@
             "id": 15,
             "name": "Indiana Pacers",
             "nickname": "Pacers",
+            "colorTeam": "yellow",
             "code": "IND",
             "city": "Indiana",
             "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/c/cf/Pacers_de_l%27Indiana_logo.svg/1180px-Pacers_de_l%27Indiana_logo.svg.png"
@@ -100,6 +201,7 @@
             "id": 16,
             "name": "LA Clippers",
             "nickname": "Clippers",
+            "colorTeam": "grey",
             "code": "LAC",
             "city": "LA",
             "logo": "https://upload.wikimedia.org/wikipedia/fr/d/d6/Los_Angeles_Clippers_logo_2010.png"
@@ -108,6 +210,7 @@
             "id": 17,
             "name": "Los Angeles Lakers",
             "nickname": "Lakers",
+            "colorTeam": "yellow",
             "code": "LAL",
             "city": "Los Angeles",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/220px-Los_Angeles_Lakers_logo.svg.png"

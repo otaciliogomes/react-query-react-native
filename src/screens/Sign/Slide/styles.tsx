@@ -4,9 +4,7 @@ import styled from 'styled-components/native'
 const { width } = Dimensions.get('window')
 
 export const Container = styled.View`
-    flex: 1;
     width: ${width};
-    background-color: #1d428a;
     justify-content: center;
     align-items: center;
 `
